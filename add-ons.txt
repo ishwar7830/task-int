@@ -1,0 +1,4 @@
+signup, signin errors appear below the input boxes. ( functionality done in signin )
+better design for dashboard.html table
+
+
