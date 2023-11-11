@@ -1,4 +1,3 @@
-signup, signin errors appear below the input boxes. ( functionality done in signin )
-better design for dashboard.html table
-
-
+signup, signin errors appear below the input boxes. ( make alignments )
+better design for dashboard.html table ( use tailwind.css)
+make alignments better on the bottom of the dashboard.html page

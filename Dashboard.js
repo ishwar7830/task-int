@@ -41,9 +41,9 @@ async function fetchData() {
          data = await response.json();
         console.log("Data : " , data);
        
-        let username; 
-        let userobject = JSON.parse(sessionStorage.getItem("user-object"))
-        username= userobject.username
+        
+        let username = JSON.parse(sessionStorage.getItem("user-object"))?.username || "Test-Username"
+        
         document.getElementById("welcome-note").innerText = `Hi, ${username}`
         let table= document.getElementById("Ghayal")
 
